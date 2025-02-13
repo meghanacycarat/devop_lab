@@ -1,5 +1,8 @@
-class sol:
-def(s: str,t : str) -> bool:
-    if s==t:
-        return False
-return True    
+def lala(s: str,t : str) -> bool:
+        se = sorted(s)
+        te = sorted(t)
+        if se==te:
+            return False
+        return True    
+
+lala('ate','eat')        
